@@ -2,6 +2,8 @@ module github.com/go-vela/worker
 
 go 1.15
 
+replace github.com/go-vela/pkg-executor => ../pkg-executor
+
 require (
 	github.com/Masterminds/semver/v3 v3.1.1
 	github.com/gin-gonic/gin v1.7.2
